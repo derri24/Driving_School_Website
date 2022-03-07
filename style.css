@@ -19,11 +19,20 @@ li {
     justify-content: space-between;
 
 }
+
 .menu a {
     color: white;
     font-size: 18px;
     line-height: 36px;
     padding: 0px 16px;
+}
+
+.backgroundPicture {
+    background-image: url("pictures/car.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    webkit-filter: contrast(500%);
 }
 
 .menu a:hover {
