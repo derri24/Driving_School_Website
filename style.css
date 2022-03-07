@@ -20,6 +20,45 @@ li {
 
 }
 
+.btn{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 1000;
+    margin: 10px 0;
+}
+
+.display-block
+{
+    display: block;
+}
+
+.btn-yellow
+{
+    background: #ffc222;
+    color: white;
+}
+
+.font-bold {
+    font-weight: 1000;
+}
+
+.schedule {
+    background-image: url("pictures/car.jpg");
+    height: auto;
+}
+
+.schedule-item {
+    display: inline-block;
+    width: 30%;
+    padding: 30px;
+}
+
+.font-2em
+{
+    font-size: 2em;
+}
+
 .menu a {
     color: white;
     font-size: 18px;
@@ -44,39 +83,32 @@ li {
     background-color: #323232;
 }
 
-.p-1
-{
+.p-1 {
     padding: 1%;
 }
 
-.inline-block
-{
+.inline-block {
     display: inline-block;
 }
 
-.color-white
-{
+.color-white {
     color: white;
 }
 
-.color-yellow
-{
+.color-yellow {
     color: #ffc222;
 }
 
-.color-gray
-{
+.color-gray {
     color: #323232;
 }
 
-.w-25
-{
+.w-25 {
     width: 25%;
     display: block;
 }
 
-.w-auto
-{
+.w-auto {
     width: auto;
 }
 
@@ -86,20 +118,21 @@ li {
     padding: 0 15px;
 }
 
-.rewiewsBoxes{
+.rewiewsBoxes {
     width: 300px;
     height: 28px;
     font-size: 14px;
     border-radius: 10px;
 }
-.textRewiews{
+
+.textRewiews {
     width: 300px;
     height: 90px;
     font-size: 14px;
     border-radius: 10px;
 }
 
-.indent{
+.indent {
     margin-bottom: 7px;
 }
 
@@ -118,6 +151,7 @@ a.rewiewsBtn {
 a.rewiewsBtn:hover {
     background: linear-gradient(#ffc222, orange) gold;
 }
+
 .sizeRewiewsBtn {
     padding-left: 25%;
     padding-top: 4%;
