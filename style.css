@@ -1,0 +1,47 @@
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li + li {
+    padding-left: 10px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu a {
+    color: white;
+    font-size: 18px;
+    line-height: 36px;
+    padding: 0px 16px;
+}
+
+.menu a:hover {
+    color: #ffc222;
+}
+
+.header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #323232;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    margin: 0;
+}
