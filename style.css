@@ -32,7 +32,7 @@ li {
     background-size: cover;
     background-position: center;
     height: 500px;
-    webkit-filter: contrast(500%);
+    webkit-filter: brightness(10%);
 }
 
 .menu a:hover {
