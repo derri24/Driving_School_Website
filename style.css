@@ -31,8 +31,7 @@ li {
     background-image: url("pictures/car.jpg");
     background-size: cover;
     background-position: center;
-    height: 500px;
-    webkit-filter: brightness(10%);
+    height: 485px;
 }
 
 .menu a:hover {
@@ -54,12 +53,40 @@ li {
 .rewiewsBoxes{
     width: 300px;
     height: 28px;
-    font-size: 13px;
-    border-radius: 15px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+.textRewiews{
+    width: 300px;
+    height: 90px;
+    font-size: 14px;
+    border-radius: 10px;
 }
 
 .indent{
-    margin-bottom: 5px;
+    margin-bottom: 7px;
+}
+
+a.rewiewsBtn {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    border-width: 2px 0;
+    border-radius: 10px;
+    background: #ffc222;
+    transition: 0.2s;
+}
+
+
+a.rewiewsBtn:hover {
+    background: linear-gradient(#ffc222, orange) gold;
+}
+.sizeRewiewsBtn {
+    padding-left: 25%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-right: 25%;
 }
 
 body {
