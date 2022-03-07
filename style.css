@@ -51,6 +51,17 @@ li {
     padding: 0 15px;
 }
 
+.rewiewsBoxes{
+    width: 300px;
+    height: 25px;
+    font-size: 13px;
+    border-radius: 15px;
+}
+
+.indent{
+    margin-bottom: 5px;
+}
+
 body {
     margin: 0;
 }
