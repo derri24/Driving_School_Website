@@ -45,6 +45,42 @@ li {
     background-color: #323232;
 }
 
+.p-1
+{
+    padding: 1%;
+}
+
+.inline-block
+{
+    display: inline-block;
+}
+
+.color-white
+{
+    color: white;
+}
+
+.color-yellow
+{
+    color: #ffc222;
+}
+
+.color-gray
+{
+    color: #323232;
+}
+
+.w-25
+{
+    width: 25%;
+    display: block;
+}
+
+.w-auto
+{
+    width: auto;
+}
+
 .container {
     max-width: 1170px;
     margin: 0 auto;
